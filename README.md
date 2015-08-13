@@ -4,6 +4,8 @@ A simple mouse simulation tool for JS.
 This was an experiment to simulate mouse functionality within a page; this tool is currently very limited due to not
 having enough time to add extra functionality, but you get the idea.
 
+[View demo on codepen](http://codepen.io/jakebown/pen/eNoEjx)
+
 # Events 
 You can move the mouse in both X and Y direction by adding it to the queue using the following function
 
