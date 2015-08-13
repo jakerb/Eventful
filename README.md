@@ -24,5 +24,11 @@ eventful.event("mouse", {
 });
 </pre>
 
-using the <code>click</code> property, you can click the element that you have moved to, this can be used on links and buttons 
-within the DOM.
+using the <code>click</code> property, you can click the element that you have moved to, this can be used on links and buttons within the DOM.
+
+You can also set the <code>speed</code> of how fast the simulation plays through in ms, to change this, simply update the speed propery:
+
+<pre>
+speed = 300;
+</pre>
+
