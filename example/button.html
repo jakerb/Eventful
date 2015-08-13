@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div class="pointer" style="z-index:9999;position:absolute;left:0;top:0;width:15px;height:15px;border:1px solid rgba(0,0,0,0.2); background:rgba(255,255,255,0.4); border-radius: 100%;"></div>
+
+<button class="button" style="position:absolute; top: 150px; left: 500px;">Click me for alert</button>
+
+<!-- Include JS and Eventful -->
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type="text/javascript" src="../eventful.min.js"></script>
+
+<!-- Includes all Eventful events -->
+<script type="text/javascript" src="../events.js"></script>
+
+<script type="text/javascript">
+	$('.button').on('click', function() {
+		alert('You have clicked the button');
+	});
+</script>
+</body>
+</html>
